@@ -7,6 +7,9 @@ const SubDynamic = () => {
   return (
     <>
       <h1>Slug: {slug.join("/")}</h1>
+      <pre>
+        <code>{JSON.stringify(router, null, 2)}</code>
+      </pre>
     </>
   );
 };
